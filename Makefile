@@ -11,7 +11,7 @@ run:
 	python sentiment.py
 
 git:
-	git ci -m "updates via make"
+	git commit -m "updates via make"
 	git push
 
 clean:
