@@ -10,5 +10,9 @@ default:
 run:
 	python sentiment.py
 
+git:
+	git ci -m "updates via make"
+	git push
+
 clean:
 	rm -rf venv
